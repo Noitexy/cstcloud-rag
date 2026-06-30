@@ -46,3 +46,6 @@ frontend/vite.config.d.ts
 .DS_Store
 Thumbs.db
 *.log
+
+# Local-only interview preparation document
+/项目讲解、运行与面试指南.md
