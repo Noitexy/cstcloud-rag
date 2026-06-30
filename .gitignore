@@ -1,0 +1,48 @@
+# Secrets and local configuration
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*secrets*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime knowledge data (may contain private documents and conversations)
+backend/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+chroma/
+uploads/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Editors, local agents and OS files
+.vscode/
+.idea/
+.codex/
+.agents/
+.tools/
+.DS_Store
+Thumbs.db
+*.log
