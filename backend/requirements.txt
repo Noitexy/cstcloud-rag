@@ -6,7 +6,7 @@ pydantic-settings>=2.4,<3.0
 python-dotenv>=1.0,<2.0
 SQLAlchemy>=2.0,<3.0
 # Keep the embedded client below 1.0 until CVE-2026-45829 has an upstream fixed release.
-chromadb>=0.6.3,<1.0
+chromadb>=1.5.9,<2.0
 rank-bm25>=0.2.2,<1.0
 python-multipart>=0.0.9,<1.0
 pypdf>=5.0,<7.0
